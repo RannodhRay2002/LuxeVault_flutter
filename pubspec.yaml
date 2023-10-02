@@ -1,0 +1,442 @@
+name: myapp
+description: CB010452
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/ant-design-shopping-outlined.png
+    - assets/page-1/images/group.png
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/ant-design-shopping-outlined-UNM.png
+    - assets/page-1/images/uil-amazon.png
+    - assets/page-1/images/vector-mKF.png
+    - assets/page-1/images/vector-2oK.png
+    - assets/page-1/images/ellipse-27.png
+    - assets/page-1/images/ellipse-9.png
+    - assets/page-1/images/ellipse-9-j4u.png
+    - assets/page-1/images/tabler-dots.png
+    - assets/page-1/images/vector-Cph.png
+    - assets/page-1/images/vector-L6u.png
+    - assets/page-1/images/vector-i81.png
+    - assets/page-1/images/ant-design-shopping-outlined-SSd.png
+    - assets/page-1/images/ellipse-20.png
+    - assets/page-1/images/vector-yHT.png
+    - assets/page-1/images/ant-design-shopping-outlined-kim.png
+    - assets/page-1/images/group-ah7.png
+    - assets/page-1/images/ellipse-30.png
+    - assets/page-1/images/ellipse-41.png
+    - assets/page-1/images/vector-REH.png
+    - assets/page-1/images/uil-amazon-Ygq.png
+    - assets/page-1/images/ellipse-35.png
+    - assets/page-1/images/vector-99K.png
+    - assets/page-1/images/vector-Fs7.png
+    - assets/page-1/images/tabler-dots-nJ5.png
+    - assets/page-1/images/ellipse-36.png
+    - assets/page-1/images/ellipse-28.png
+    - assets/page-1/images/vector-GRw.png
+    - assets/page-1/images/vector-ckh.png
+    - assets/page-1/images/vector-xrV.png
+    - assets/page-1/images/vector-naM.png
+    - assets/page-1/images/auto-group-9gvs.png
+    - assets/page-1/images/uil-amazon-GZP.png
+    - assets/page-1/images/vector-Uqo.png
+    - assets/page-1/images/uil-amazon-wAy.png
+    - assets/page-1/images/ellipse-39.png
+    - assets/page-1/images/bi-phone.png
+    - assets/page-1/images/logos-mastercard.png
+    - assets/page-1/images/ant-design-shopping-outlined-3LV.png
+    - assets/page-1/images/ellipse-14.png
+    - assets/page-1/images/tabler-dots-TVB.png
+    - assets/page-1/images/vector-4kR.png
+    - assets/page-1/images/ellipse-42.png
+    - assets/page-1/images/ellipse-12.png
+    - assets/page-1/images/vector-nxq.png
+    - assets/page-1/images/ellipse-41-ok5.png
+    - assets/page-1/images/ph-credit-card-thin.png
+    - assets/page-1/images/ant-design-shopping-outlined-VA9.png
+    - assets/page-1/images/bi-phone-VLM.png
+    - assets/page-1/images/rectangle-bg.png
+    - assets/page-1/images/logos-mastercard-LVP.png
+    - assets/page-1/images/rectangle-bg-sNy.png
+    - assets/page-1/images/ant-design-shopping-outlined-Fjf.png
+    - assets/page-1/images/group-hoF.png
+    - assets/page-1/images/ellipse-17.png
+    - assets/page-1/images/ellipse-21.png
+    - assets/page-1/images/group-hKw.png
+    - assets/page-1/images/vector-H6R.png
+    - assets/page-1/images/uil-amazon-5vR.png
+    - assets/page-1/images/ph-credit-card-thin-UBb.png
+    - assets/page-1/images/vector-3i9.png
+    - assets/page-1/images/group-Zvh.png
+    - assets/page-1/images/ellipse-15.png
+    - assets/page-1/images/fluent-password-16-regular.png
+    - assets/page-1/images/zondicons-minus-outline.png
+    - assets/page-1/images/ellipse-40.png
+    - assets/page-1/images/vector-VsX.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled.png
+    - assets/page-1/images/bi-phone-b3o.png
+    - assets/page-1/images/ellipse-22.png
+    - assets/page-1/images/vector-YTj.png
+    - assets/page-1/images/vector-d6R.png
+    - assets/page-1/images/ellipse-19.png
+    - assets/page-1/images/auto-group-goeo.png
+    - assets/page-1/images/vector-jiq.png
+    - assets/page-1/images/vector-WFB.png
+    - assets/page-1/images/ant-design-shopping-outlined-iz5.png
+    - assets/page-1/images/tabler-dots-BZT.png
+    - assets/page-1/images/rectangle-8.png
+    - assets/page-1/images/ph-credit-card-thin-YsB.png
+    - assets/page-1/images/ant-design-shopping-outlined-Xxu.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-rTs.png
+    - assets/page-1/images/vector-RCm.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-T85.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-X9b.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-9Rs.png
+    - assets/page-1/images/vector-B7f.png
+    - assets/page-1/images/auto-group-rjkj.png
+    - assets/page-1/images/vector-T8M.png
+    - assets/page-1/images/rectangle-7.png
+    - assets/page-1/images/ellipse-29.png
+    - assets/page-1/images/group-vCH.png
+    - assets/page-1/images/rectangle-13.png
+    - assets/page-1/images/vector-jyb.png
+    - assets/page-1/images/vector-6JM.png
+    - assets/page-1/images/auto-group-7ehv.png
+    - assets/page-1/images/vector-eed.png
+    - assets/page-1/images/rectangle-11.png
+    - assets/page-1/images/vector-Zf7.png
+    - assets/page-1/images/rectangle-13-hPw.png
+    - assets/page-1/images/ph-credit-card-thin-XNq.png
+    - assets/page-1/images/bi-phone-YkH.png
+    - assets/page-1/images/ant-design-shopping-outlined-exy.png
+    - assets/page-1/images/rectangle-9.png
+    - assets/page-1/images/vector-RPw.png
+    - assets/page-1/images/vector-b69.png
+    - assets/page-1/images/quill-paper.png
+    - assets/page-1/images/ellipse-37.png
+    - assets/page-1/images/vector-hKX.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-92y.png
+    - assets/page-1/images/rectangle-11-Zpm.png
+    - assets/page-1/images/ant-design-shopping-outlined-w1b.png
+    - assets/page-1/images/ellipse-42-bv1.png
+    - assets/page-1/images/vector-nt1.png
+    - assets/page-1/images/rectangle-9-ttZ.png
+    - assets/page-1/images/logos-mastercard-7s7.png
+    - assets/page-1/images/vector-vvM.png
+    - assets/page-1/images/vector-xkZ.png
+    - assets/page-1/images/ellipse-13.png
+    - assets/page-1/images/ant-design-shopping-outlined-rnm.png
+    - assets/page-1/images/logos-mastercard-A33.png
+    - assets/page-1/images/ph-credit-card-thin-rjj.png
+    - assets/page-1/images/vector-7jX.png
+    - assets/page-1/images/vector-Mwo.png
+    - assets/page-1/images/rectangle-9-heq.png
+    - assets/page-1/images/ph-credit-card-thin-XDs.png
+    - assets/page-1/images/group-qkV.png
+    - assets/page-1/images/rectangle-9-8mX.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-5GD.png
+    - assets/page-1/images/rectangle-9-KwF.png
+    - assets/page-1/images/rectangle-9-dys.png
+    - assets/page-1/images/vector-31B.png
+    - assets/page-1/images/ellipse-38.png
+    - assets/page-1/images/solar-dollar-line-duotone.png
+    - assets/page-1/images/ph-credit-card-thin-nr5.png
+    - assets/page-1/images/vector-2xh.png
+    - assets/page-1/images/vector-EQH.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-8uX.png
+    - assets/page-1/images/rectangle-9-9Db.png
+    - assets/page-1/images/rectangle-9-3Lu.png
+    - assets/page-1/images/ph-credit-card-thin-6Kj.png
+    - assets/page-1/images/logos-mastercard-SJV.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-6XK.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-Acy.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-dmK.png
+    - assets/page-1/images/rectangle-7-SrV.png
+    - assets/page-1/images/rectangle-9-kqw.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-QBs.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-uQu.png
+    - assets/page-1/images/ph-credit-card-thin-YJ5.png
+    - assets/page-1/images/ant-design-shopping-outlined-yey.png
+    - assets/page-1/images/vector-zh7.png
+    - assets/page-1/images/ant-design-shopping-outlined-Ku3.png
+    - assets/page-1/images/ant-design-shopping-outlined-C8q.png
+    - assets/page-1/images/ant-design-shopping-outlined-PzZ.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-PJH.png
+    - assets/page-1/images/ellipse-17-3bf.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-wpd.png
+    - assets/page-1/images/rectangle-9-Q97.png
+    - assets/page-1/images/rectangle-9-kV7.png
+    - assets/page-1/images/ph-credit-card-thin-c5w.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-4L1.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-b53.png
+    - assets/page-1/images/group-cCH.png
+    - assets/page-1/images/logos-mastercard-y21.png
+    - assets/page-1/images/ant-design-shopping-outlined-6P3.png
+    - assets/page-1/images/quill-paper-eUR.png
+    - assets/page-1/images/ant-design-shopping-outlined-MaR.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-5mK.png
+    - assets/page-1/images/group-9Ko.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-jq3.png
+    - assets/page-1/images/zondicons-minus-outline-TH3.png
+    - assets/page-1/images/ph-credit-card-thin-rEM.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-3Ay.png
+    - assets/page-1/images/rectangle-10.png
+    - assets/page-1/images/vector-9gM.png
+    - assets/page-1/images/vector-JF3.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-GuF.png
+    - assets/page-1/images/rectangle-9-kLR.png
+    - assets/page-1/images/vector-S3s.png
+    - assets/page-1/images/rectangle-8-jNq.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-fww.png
+    - assets/page-1/images/ph-credit-card-thin-gpR.png
+    - assets/page-1/images/ant-design-shopping-outlined-ABs.png
+    - assets/page-1/images/vector-HTP.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-YBb.png
+    - assets/page-1/images/vector-7o7.png
+    - assets/page-1/images/ellipse-14-fJ1.png
+    - assets/page-1/images/rectangle-7-EMw.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-NU9.png
+    - assets/page-1/images/fluent-password-16-regular-Zzh.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-E8H.png
+    - assets/page-1/images/ant-design-shopping-outlined-19b.png
+    - assets/page-1/images/ellipse-20-vnd.png
+    - assets/page-1/images/ant-design-shopping-outlined-hMB.png
+    - assets/page-1/images/vector-H4V.png
+    - assets/page-1/images/vector-dG5.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-HMB.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-U7T.png
+    - assets/page-1/images/group-8DF.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-TwP.png
+    - assets/page-1/images/fontisto-netflix.png
+    - assets/page-1/images/rectangle-8-Bi1.png
+    - assets/page-1/images/ellipse-14-34d.png
+    - assets/page-1/images/quill-paper-tyf.png
+    - assets/page-1/images/ellipse-15-kr5.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-WgZ.png
+    - assets/page-1/images/ant-design-shopping-outlined-Sid.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-2Ts.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-b8D.png
+    - assets/page-1/images/ellipse-14-ARP.png
+    - assets/page-1/images/ellipse-18.png
+    - assets/page-1/images/rectangle-bg-a33.png
+    - assets/page-1/images/group-Pry.png
+    - assets/page-1/images/ph-credit-card-thin-V3P.png
+    - assets/page-1/images/ant-design-shopping-outlined-9LD.png
+    - assets/page-1/images/ellipse-20-yq3.png
+    - assets/page-1/images/ellipse-23.png
+    - assets/page-1/images/ant-design-shopping-outlined-yTw.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-BA1.png
+    - assets/page-1/images/ellipse-15-6vM.png
+    - assets/page-1/images/ellipse-23-qhT.png
+    - assets/page-1/images/ph-credit-card-thin-TL5.png
+    - assets/page-1/images/vector-MEy.png
+    - assets/page-1/images/ant-design-shopping-outlined-Tah.png
+    - assets/page-1/images/ant-design-shopping-outlined-kQ1.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-9H3.png
+    - assets/page-1/images/vector-zZ7.png
+    - assets/page-1/images/uil-amazon-gkZ.png
+    - assets/page-1/images/ellipse-18-ZcM.png
+    - assets/page-1/images/rectangle-8-xim.png
+    - assets/page-1/images/ellipse-22-r1P.png
+    - assets/page-1/images/ellipse-21-QXB.png
+    - assets/page-1/images/vector-iss.png
+    - assets/page-1/images/ant-design-shopping-outlined-Q25.png
+    - assets/page-1/images/ellipse-15-uSZ.png
+    - assets/page-1/images/rectangle-9-ShP.png
+    - assets/page-1/images/ellipse-22-vth.png
+    - assets/page-1/images/el-download.png
+    - assets/page-1/images/rectangle-bg-SR7.png
+    - assets/page-1/images/ellipse-19-HAq.png
+    - assets/page-1/images/ant-design-shopping-outlined-1cd.png
+    - assets/page-1/images/ellipse-25.png
+    - assets/page-1/images/quill-paper-tdo.png
+    - assets/page-1/images/el-download-p1f.png
+    - assets/page-1/images/ellipse-25-WPb.png
+    - assets/page-1/images/ph-credit-card-thin-LNd.png
+    - assets/page-1/images/ph-credit-card-thin-ejs.png
+    - assets/page-1/images/vector-UNd.png
+    - assets/page-1/images/ant-design-shopping-outlined-wvH.png
+    - assets/page-1/images/solar-dollar-line-duotone-ZCu.png
+    - assets/page-1/images/vector-HKF.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-hLM.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-RrR.png
+    - assets/page-1/images/ellipse-26.png
+    - assets/page-1/images/vector-Ke1.png
+    - assets/page-1/images/vector-kph.png
+    - assets/page-1/images/vector-Lhf.png
+    - assets/page-1/images/ellipse-26-nJm.png
+    - assets/page-1/images/rectangle-9-fEh.png
+    - assets/page-1/images/group-wR3.png
+    - assets/page-1/images/vector-iq7.png
+    - assets/page-1/images/ant-design-shopping-outlined-TEZ.png
+    - assets/page-1/images/group-oZK.png
+    - assets/page-1/images/ant-design-shopping-outlined-n6M.png
+    - assets/page-1/images/vector-me9.png
+    - assets/page-1/images/group-Gau.png
+    - assets/page-1/images/ellipse-24.png
+    - assets/page-1/images/rectangle-bg-7TX.png
+    - assets/page-1/images/rectangle-bg-TDB.png
+    - assets/page-1/images/ellipse-31.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-RHj.png
+    - assets/page-1/images/group-J3s.png
+    - assets/page-1/images/el-download-wiR.png
+    - assets/page-1/images/ellipse-30-wpm.png
+    - assets/page-1/images/vector-CKK.png
+    - assets/page-1/images/vector-HYM.png
+    - assets/page-1/images/ph-credit-card-thin-JyF.png
+    - assets/page-1/images/rectangle-bg-V45.png
+    - assets/page-1/images/ant-design-shopping-outlined-uUV.png
+    - assets/page-1/images/vector-4M7.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-Zj7.png
+    - assets/page-1/images/ph-credit-card-thin-Vbo.png
+    - assets/page-1/images/ellipse-19-kvM.png
+    - assets/page-1/images/rectangle-7-Wed.png
+    - assets/page-1/images/vector-ey7.png
+    - assets/page-1/images/ellipse-27-GZo.png
+    - assets/page-1/images/el-download-yHB.png
+    - assets/page-1/images/el-download-oQV.png
+    - assets/page-1/images/ant-design-shopping-outlined-bLM.png
+    - assets/page-1/images/rectangle-bg-C6M.png
+    - assets/page-1/images/ph-credit-card-thin-tDo.png
+    - assets/page-1/images/ellipse-24-fAy.png
+    - assets/page-1/images/ph-credit-card-thin-8Mw.png
+    - assets/page-1/images/vector-3Uu.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-7hT.png
+    - assets/page-1/images/rectangle-bg-ayX.png
+    - assets/page-1/images/rectangle-bg-87s.png
+    - assets/page-1/images/rectangle-bg-zFs.png
+    - assets/page-1/images/logo-no-background-1.png
+    - assets/page-1/images/rectangle-bg-M61.png
+    - assets/page-1/images/ellipse-32.png
+    - assets/page-1/images/ant-design-shopping-outlined-Hbf.png
+    - assets/page-1/images/logo-no-background-1-dcu.png
+    - assets/page-1/images/rectangle-bg-QzM.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-fDT.png
+    - assets/page-1/images/rectangle-bg-enm.png
+    - assets/page-1/images/vector-bhs.png
+    - assets/page-1/images/ant-design-shopping-outlined-i3j.png
+    - assets/page-1/images/ph-credit-card-thin-1DB.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-shj.png
+    - assets/page-1/images/ellipse-29-tNV.png
+    - assets/page-1/images/ph-credit-card-thin-s9j.png
+    - assets/page-1/images/rectangle-bg-KCd.png
+    - assets/page-1/images/el-download-Zgd.png
+    - assets/page-1/images/rectangle-bg-yEZ.png
+    - assets/page-1/images/vector-a65.png
+    - assets/page-1/images/ant-design-shopping-outlined-3DT.png
+    - assets/page-1/images/rectangle-bg-apH.png
+    - assets/page-1/images/el-download-GsT.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-6FT.png
+    - assets/page-1/images/el-download-gxH.png
+    - assets/page-1/images/ant-design-shopping-outlined-qVj.png
+    - assets/page-1/images/ant-design-shopping-outlined-6r5.png
+    - assets/page-1/images/el-download-GbK.png
+    - assets/page-1/images/rectangle-bg-AUH.png
+    - assets/page-1/images/rectangle-bg-MsX.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-LTs.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-2bK.png
+    - assets/page-1/images/rectangle-11-Z5T.png
+    - assets/page-1/images/fluent-ios-arrow-24-filled-x5f.png
+    - assets/page-1/images/ph-credit-card-thin-ivu.png
+    - assets/page-1/images/rectangle-12.png
+    - assets/page-1/images/ellipse-28-TiR.png
+    - assets/page-1/images/group-Ygy.png
+    - assets/page-1/images/logo-no-background-2.png
+    - assets/page-1/images/logo-no-background-2-imf.png
+    - assets/page-1/images/logo-no-background-1-VWq.png
+    - assets/page-1/images/vector-Bds.png
+    - assets/page-1/images/rectangle-12-Sth.png
+    - assets/page-1/images/logo-no-background-1-YYy.png
+    - assets/page-1/images/logo-no-background-1-ooX.png
+    - assets/page-1/images/rectangle-bg-cSV.png
+    - assets/page-1/images/rectangle-bg-SFT.png
+    - assets/page-1/images/rectangle-bg-apq.png
+    - assets/page-1/images/ant-design-shopping-outlined-wub.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
